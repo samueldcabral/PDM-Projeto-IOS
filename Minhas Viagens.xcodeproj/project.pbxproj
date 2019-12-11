@@ -1,0 +1,449 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		14575B9C23A1A0E50095B4FC /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14575B9B23A1A0E50095B4FC /* AppDelegate.swift */; };
+		14575B9E23A1A0E50095B4FC /* ViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 14575B9D23A1A0E50095B4FC /* ViewController.swift */; };
+		14575BA123A1A0E50095B4FC /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14575B9F23A1A0E50095B4FC /* Main.storyboard */; };
+		14575BA423A1A0E50095B4FC /* Minhas_Viagens.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 14575BA223A1A0E50095B4FC /* Minhas_Viagens.xcdatamodeld */; };
+		14575BA623A1A0EC0095B4FC /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 14575BA523A1A0EC0095B4FC /* Assets.xcassets */; };
+		14575BA923A1A0EC0095B4FC /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 14575BA723A1A0EC0095B4FC /* LaunchScreen.storyboard */; };
+		14575BB123A1A1B20095B4FC /* GoogleMapsBase.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14575BB023A1A1B20095B4FC /* GoogleMapsBase.framework */; };
+		14575BB323A1A1CC0095B4FC /* GoogleMaps.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14575BB223A1A1CC0095B4FC /* GoogleMaps.framework */; };
+		14575BB523A1A1D80095B4FC /* GoogleMapsCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14575BB423A1A1D80095B4FC /* GoogleMapsCore.framework */; };
+		14575BB723A1A2640095B4FC /* GoogleMaps.bundle in Resources */ = {isa = PBXBuildFile; fileRef = 14575BB623A1A2640095B4FC /* GoogleMaps.bundle */; };
+		14575BBA23A1A2CD0095B4FC /* Accelerate.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14575BB923A1A2CD0095B4FC /* Accelerate.framework */; };
+		14575BBC23A1A2D80095B4FC /* CoreData.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14575BBB23A1A2D80095B4FC /* CoreData.framework */; };
+		14575BBE23A1A2E00095B4FC /* CoreGraphics.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14575BBD23A1A2E00095B4FC /* CoreGraphics.framework */; };
+		14575BC023A1A2E80095B4FC /* CoreImage.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14575BBF23A1A2E80095B4FC /* CoreImage.framework */; };
+		14575BC223A1A2EF0095B4FC /* CoreLocation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14575BC123A1A2EF0095B4FC /* CoreLocation.framework */; };
+		14575BC423A1A2F70095B4FC /* CoreTelephony.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14575BC323A1A2F70095B4FC /* CoreTelephony.framework */; };
+		14575BC623A1A2FD0095B4FC /* CoreText.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14575BC523A1A2FD0095B4FC /* CoreText.framework */; };
+		14575BC823A1A3060095B4FC /* GLKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14575BC723A1A3060095B4FC /* GLKit.framework */; };
+		14575BCA23A1A30E0095B4FC /* ImageIO.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14575BC923A1A30D0095B4FC /* ImageIO.framework */; };
+		14575BCC23A1A3260095B4FC /* libc++.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 14575BCB23A1A3260095B4FC /* libc++.tbd */; };
+		14575BCE23A1A3360095B4FC /* libz.tbd in Frameworks */ = {isa = PBXBuildFile; fileRef = 14575BCD23A1A3360095B4FC /* libz.tbd */; };
+		14575BD023A1A3420095B4FC /* OpenGLES.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14575BCF23A1A3420095B4FC /* OpenGLES.framework */; };
+		14575BD223A1A34F0095B4FC /* QuartzCore.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14575BD123A1A34F0095B4FC /* QuartzCore.framework */; };
+		14575BD423A1A35B0095B4FC /* SystemConfiguration.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14575BD323A1A35B0095B4FC /* SystemConfiguration.framework */; };
+		14575BD623A1A3650095B4FC /* UIKit.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 14575BD523A1A3650095B4FC /* UIKit.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		14575B9823A1A0E50095B4FC /* Minhas Viagens.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "Minhas Viagens.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		14575B9B23A1A0E50095B4FC /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		14575B9D23A1A0E50095B4FC /* ViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ViewController.swift; sourceTree = "<group>"; };
+		14575BA023A1A0E50095B4FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		14575BA323A1A0E50095B4FC /* Minhas_Viagens.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = Minhas_Viagens.xcdatamodel; sourceTree = "<group>"; };
+		14575BA523A1A0EC0095B4FC /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		14575BA823A1A0EC0095B4FC /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		14575BAA23A1A0EC0095B4FC /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		14575BB023A1A1B20095B4FC /* GoogleMapsBase.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsBase.framework; sourceTree = "<group>"; };
+		14575BB223A1A1CC0095B4FC /* GoogleMaps.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMaps.framework; sourceTree = "<group>"; };
+		14575BB423A1A1D80095B4FC /* GoogleMapsCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; path = GoogleMapsCore.framework; sourceTree = "<group>"; };
+		14575BB623A1A2640095B4FC /* GoogleMaps.bundle */ = {isa = PBXFileReference; lastKnownFileType = "wrapper.plug-in"; name = GoogleMaps.bundle; path = GoogleMaps.framework/Resources/GoogleMaps.bundle; sourceTree = "<group>"; };
+		14575BB923A1A2CD0095B4FC /* Accelerate.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Accelerate.framework; path = System/Library/Frameworks/Accelerate.framework; sourceTree = SDKROOT; };
+		14575BBB23A1A2D80095B4FC /* CoreData.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreData.framework; path = System/Library/Frameworks/CoreData.framework; sourceTree = SDKROOT; };
+		14575BBD23A1A2E00095B4FC /* CoreGraphics.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreGraphics.framework; path = System/Library/Frameworks/CoreGraphics.framework; sourceTree = SDKROOT; };
+		14575BBF23A1A2E80095B4FC /* CoreImage.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreImage.framework; path = System/Library/Frameworks/CoreImage.framework; sourceTree = SDKROOT; };
+		14575BC123A1A2EF0095B4FC /* CoreLocation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreLocation.framework; path = System/Library/Frameworks/CoreLocation.framework; sourceTree = SDKROOT; };
+		14575BC323A1A2F70095B4FC /* CoreTelephony.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreTelephony.framework; path = System/Library/Frameworks/CoreTelephony.framework; sourceTree = SDKROOT; };
+		14575BC523A1A2FD0095B4FC /* CoreText.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = CoreText.framework; path = System/Library/Frameworks/CoreText.framework; sourceTree = SDKROOT; };
+		14575BC723A1A3060095B4FC /* GLKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = GLKit.framework; path = System/Library/Frameworks/GLKit.framework; sourceTree = SDKROOT; };
+		14575BC923A1A30D0095B4FC /* ImageIO.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = ImageIO.framework; path = System/Library/Frameworks/ImageIO.framework; sourceTree = SDKROOT; };
+		14575BCB23A1A3260095B4FC /* libc++.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = "libc++.tbd"; path = "usr/lib/libc++.tbd"; sourceTree = SDKROOT; };
+		14575BCD23A1A3360095B4FC /* libz.tbd */ = {isa = PBXFileReference; lastKnownFileType = "sourcecode.text-based-dylib-definition"; name = libz.tbd; path = usr/lib/libz.tbd; sourceTree = SDKROOT; };
+		14575BCF23A1A3420095B4FC /* OpenGLES.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = OpenGLES.framework; path = System/Library/Frameworks/OpenGLES.framework; sourceTree = SDKROOT; };
+		14575BD123A1A34F0095B4FC /* QuartzCore.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = QuartzCore.framework; path = System/Library/Frameworks/QuartzCore.framework; sourceTree = SDKROOT; };
+		14575BD323A1A35B0095B4FC /* SystemConfiguration.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = SystemConfiguration.framework; path = System/Library/Frameworks/SystemConfiguration.framework; sourceTree = SDKROOT; };
+		14575BD523A1A3650095B4FC /* UIKit.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = UIKit.framework; path = System/Library/Frameworks/UIKit.framework; sourceTree = SDKROOT; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		14575B9523A1A0E50095B4FC /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14575BD623A1A3650095B4FC /* UIKit.framework in Frameworks */,
+				14575BD423A1A35B0095B4FC /* SystemConfiguration.framework in Frameworks */,
+				14575BD223A1A34F0095B4FC /* QuartzCore.framework in Frameworks */,
+				14575BD023A1A3420095B4FC /* OpenGLES.framework in Frameworks */,
+				14575BCE23A1A3360095B4FC /* libz.tbd in Frameworks */,
+				14575BCC23A1A3260095B4FC /* libc++.tbd in Frameworks */,
+				14575BCA23A1A30E0095B4FC /* ImageIO.framework in Frameworks */,
+				14575BC823A1A3060095B4FC /* GLKit.framework in Frameworks */,
+				14575BC623A1A2FD0095B4FC /* CoreText.framework in Frameworks */,
+				14575BC423A1A2F70095B4FC /* CoreTelephony.framework in Frameworks */,
+				14575BC223A1A2EF0095B4FC /* CoreLocation.framework in Frameworks */,
+				14575BC023A1A2E80095B4FC /* CoreImage.framework in Frameworks */,
+				14575BBE23A1A2E00095B4FC /* CoreGraphics.framework in Frameworks */,
+				14575BBC23A1A2D80095B4FC /* CoreData.framework in Frameworks */,
+				14575BBA23A1A2CD0095B4FC /* Accelerate.framework in Frameworks */,
+				14575BB323A1A1CC0095B4FC /* GoogleMaps.framework in Frameworks */,
+				14575BB523A1A1D80095B4FC /* GoogleMapsCore.framework in Frameworks */,
+				14575BB123A1A1B20095B4FC /* GoogleMapsBase.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		14575B8F23A1A0E40095B4FC = {
+			isa = PBXGroup;
+			children = (
+				14575BB623A1A2640095B4FC /* GoogleMaps.bundle */,
+				14575BB423A1A1D80095B4FC /* GoogleMapsCore.framework */,
+				14575BB223A1A1CC0095B4FC /* GoogleMaps.framework */,
+				14575BB023A1A1B20095B4FC /* GoogleMapsBase.framework */,
+				14575B9A23A1A0E50095B4FC /* Minhas Viagens */,
+				14575B9923A1A0E50095B4FC /* Products */,
+				14575BB823A1A2CD0095B4FC /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		14575B9923A1A0E50095B4FC /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				14575B9823A1A0E50095B4FC /* Minhas Viagens.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14575B9A23A1A0E50095B4FC /* Minhas Viagens */ = {
+			isa = PBXGroup;
+			children = (
+				14575B9B23A1A0E50095B4FC /* AppDelegate.swift */,
+				14575B9D23A1A0E50095B4FC /* ViewController.swift */,
+				14575B9F23A1A0E50095B4FC /* Main.storyboard */,
+				14575BA523A1A0EC0095B4FC /* Assets.xcassets */,
+				14575BA723A1A0EC0095B4FC /* LaunchScreen.storyboard */,
+				14575BAA23A1A0EC0095B4FC /* Info.plist */,
+				14575BA223A1A0E50095B4FC /* Minhas_Viagens.xcdatamodeld */,
+			);
+			path = "Minhas Viagens";
+			sourceTree = "<group>";
+		};
+		14575BB823A1A2CD0095B4FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				14575BD523A1A3650095B4FC /* UIKit.framework */,
+				14575BD323A1A35B0095B4FC /* SystemConfiguration.framework */,
+				14575BD123A1A34F0095B4FC /* QuartzCore.framework */,
+				14575BCF23A1A3420095B4FC /* OpenGLES.framework */,
+				14575BCD23A1A3360095B4FC /* libz.tbd */,
+				14575BCB23A1A3260095B4FC /* libc++.tbd */,
+				14575BC923A1A30D0095B4FC /* ImageIO.framework */,
+				14575BC723A1A3060095B4FC /* GLKit.framework */,
+				14575BC523A1A2FD0095B4FC /* CoreText.framework */,
+				14575BC323A1A2F70095B4FC /* CoreTelephony.framework */,
+				14575BC123A1A2EF0095B4FC /* CoreLocation.framework */,
+				14575BBF23A1A2E80095B4FC /* CoreImage.framework */,
+				14575BBD23A1A2E00095B4FC /* CoreGraphics.framework */,
+				14575BBB23A1A2D80095B4FC /* CoreData.framework */,
+				14575BB923A1A2CD0095B4FC /* Accelerate.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		14575B9723A1A0E50095B4FC /* Minhas Viagens */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 14575BAD23A1A0EC0095B4FC /* Build configuration list for PBXNativeTarget "Minhas Viagens" */;
+			buildPhases = (
+				14575B9423A1A0E50095B4FC /* Sources */,
+				14575B9523A1A0E50095B4FC /* Frameworks */,
+				14575B9623A1A0E50095B4FC /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "Minhas Viagens";
+			productName = "Minhas Viagens";
+			productReference = 14575B9823A1A0E50095B4FC /* Minhas Viagens.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		14575B9023A1A0E50095B4FC /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 1010;
+				LastUpgradeCheck = 1010;
+				ORGANIZATIONNAME = IFPB;
+				TargetAttributes = {
+					14575B9723A1A0E50095B4FC = {
+						CreatedOnToolsVersion = 10.1;
+					};
+				};
+			};
+			buildConfigurationList = 14575B9323A1A0E50095B4FC /* Build configuration list for PBXProject "Minhas Viagens" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 14575B8F23A1A0E40095B4FC;
+			productRefGroup = 14575B9923A1A0E50095B4FC /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				14575B9723A1A0E50095B4FC /* Minhas Viagens */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		14575B9623A1A0E50095B4FC /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14575BA923A1A0EC0095B4FC /* LaunchScreen.storyboard in Resources */,
+				14575BA623A1A0EC0095B4FC /* Assets.xcassets in Resources */,
+				14575BA123A1A0E50095B4FC /* Main.storyboard in Resources */,
+				14575BB723A1A2640095B4FC /* GoogleMaps.bundle in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		14575B9423A1A0E50095B4FC /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				14575B9E23A1A0E50095B4FC /* ViewController.swift in Sources */,
+				14575B9C23A1A0E50095B4FC /* AppDelegate.swift in Sources */,
+				14575BA423A1A0E50095B4FC /* Minhas_Viagens.xcdatamodeld in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		14575B9F23A1A0E50095B4FC /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14575BA023A1A0E50095B4FC /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		14575BA723A1A0EC0095B4FC /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				14575BA823A1A0EC0095B4FC /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		14575BAB23A1A0EC0095B4FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		14575BAC23A1A0EC0095B4FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				"OTHER_LDFLAGS[arch=*]" = "-ObjC";
+				SDKROOT = iphoneos;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				SWIFT_OPTIMIZATION_LEVEL = "-O";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		14575BAE23A1A0EC0095B4FC /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Minhas Viagens/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.edu.ifpb.swift.Minhas-Viagens";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		14575BAF23A1A0EC0095B4FC /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)",
+				);
+				INFOPLIST_FILE = "Minhas Viagens/Info.plist";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "br.edu.ifpb.swift.Minhas-Viagens";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.2;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		14575B9323A1A0E50095B4FC /* Build configuration list for PBXProject "Minhas Viagens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14575BAB23A1A0EC0095B4FC /* Debug */,
+				14575BAC23A1A0EC0095B4FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		14575BAD23A1A0EC0095B4FC /* Build configuration list for PBXNativeTarget "Minhas Viagens" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				14575BAE23A1A0EC0095B4FC /* Debug */,
+				14575BAF23A1A0EC0095B4FC /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		14575BA223A1A0E50095B4FC /* Minhas_Viagens.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				14575BA323A1A0E50095B4FC /* Minhas_Viagens.xcdatamodel */,
+			);
+			currentVersion = 14575BA323A1A0E50095B4FC /* Minhas_Viagens.xcdatamodel */;
+			path = Minhas_Viagens.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 14575B9023A1A0E50095B4FC /* Project object */;
+}
